@@ -174,7 +174,6 @@ header a {
 }
 
 .card-item p {
-  /* margin-bottom: 24px; */
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -190,3 +189,38 @@ header a {
   margin-bottom: 40px;
 }
 /* Cards End */
+
+
+/* Footer Start */
+.footer-bg{
+  background-color: #13183F;
+  height: 120px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
+}
+
+.footer-content h2 {
+  color: white;
+}
+
+.footer-content a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+  width: 167px;
+  height: 56px;
+  border-radius: 28px;
+  text-align: center;
+  padding-block: 14px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+/* Footer End */
