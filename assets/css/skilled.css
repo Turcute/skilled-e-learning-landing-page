@@ -1,14 +1,150 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: "Plus Jakarta Sans";
 }
 
-.container{
+.container {
   width: 1100px;
-  
+  margin-inline: auto;
+  overflow: visible;
 }
+
+
+/* Header Start */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+}
+
+header h2 {
+  color: rgba(19, 24, 63, 1);
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(19, 24, 63, 1);
+  width: 167px;
+  height: 56px;
+  border-radius: 28px;
+  text-align: center;
+  padding-block: 14px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+/* Header End */
+
+
+/* Hero Start */
+.hero {
+  background: url(../img/hero.bg.jpg);
+  background-size: contain;
+  background-position: right top;
+  background-repeat: no-repeat;
+  padding: 250px 0px;
+  width: 100%;
+  margin-top: -80px;
+  margin-bottom: 70px;
+}
+
+.hero-content {
+  max-width: 457px;
+}
+
+.hero-content h1 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin-bottom: 29px;
+}
+
+.hero-content p {
+  color: #83869A;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  margin-bottom: 40px;
+}
+
+.hero-content a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  display: inline-block;
+  width: 167px;
+  height: 63px;
+  border-radius: 32px;
+  text-align: center;
+  padding-block: 17px;
+}
+/* Hero End */
+
+
+/* Cards Start */
+.cards{
+  height: 888;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+}
+
+.cards-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 80px 30px;
+}
+
+.card-item{
+  background-color: white;
+  width: 350px;
+  height: 322px;
+  border-radius: 15px;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.15);
+  position: relative;
+}
+
+.card-content{
+  margin-left: 32px;
+}
+
+.card-icon{
+  background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  position: absolute;
+  top: -24px;
+  left: 32px;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-item img{
+  width: 22px;
+  height: 22px;
+}
+
+.card-item h3{
+  margin-top: 64px;
+  margin-bottom: 24px;
+}
+
+.card-item p{
+  margin-bottom: 24px;
+}
+/* Cards End */
